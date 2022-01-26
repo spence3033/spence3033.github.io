@@ -1,24 +1,50 @@
 body {
-    background-color: pink;
-    width:400px;
+    background-color: rgb(252, 158, 173);
+    width:330px;
     margin: auto;
 }
+.hovertext {
+    color: white;
+}
+.hovertext:hover {
+    content: attr(data-hover);
+    color: black;
+}
+
 header {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 .white {
     text-align: center;
     color: white;
+    font-size: 11px;
+}
+.whitebold {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 h2 {
     text-align: center;
     color: white;
-}
-img {
-    text-align: center;
-    width: 15em;
-    height: auto;
+    font-weight: normal;
+    width: 250px;
+    margin:auto;
 }
 footer {
     text-align: center;
 }
+li {
+    list-style-type: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 5px 0px 0px;
+}
+div {
+    padding: 9px 0px 14px
+}
+/* Anna */
