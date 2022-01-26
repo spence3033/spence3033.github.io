@@ -1,0 +1,24 @@
+body {
+    background-color: pink;
+    width:400px;
+    margin: auto;
+}
+header {
+    text-align: center;
+}
+.white {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+img {
+    text-align: center;
+    width: 15em;
+    height: auto;
+}
+footer {
+    text-align: center;
+}
