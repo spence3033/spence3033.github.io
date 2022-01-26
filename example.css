@@ -1,0 +1,29 @@
+body {
+    background-color: purple;
+}
+h1 {
+    background-color: chartreuse;
+    padding: 4px;
+    text-align: center;
+}
+p {
+    color: white;
+}
+.fancydancy {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: palegoldenrod;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 40px;
+    margin-left: 120px;
+    background-color: red;
+}
+#an_id {
+    width:100px;
+}
+.superfancy {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+}
