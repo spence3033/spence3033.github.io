@@ -1,8 +1,45 @@
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+body {
+    font-family: Calibri;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+h2 {margin: 0;}
+.home-title {
+    font-family: 'Festive', cursive, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2 {font-family: 'Festive', cursive, sans-serif;}
+.msg p {font-size: 0.8em;}
+.msg {
+    background-color: #94D2BD;
+    line-height: 1.5em;
+}
+.river-card, .camping-card, .rapids-card {margin: 200px 0;}
 
+#logo_link {padding-top: 5px;}
+nav a {padding: 35px;}
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    background-color: #94D2BD;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;    
+}
+.card-img {border: 10px;}
+main section img {box-sizing: border-box;}
+.icon {padding-top: 10px;}
+.msg {padding: 35px;}
+.msg p {padding-bottom: 15px;}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #396E94;
+
+}
+footer .social img {padding-top: 15px;}
 /* Text align several things */
 nav a {
     text-align:center;
@@ -32,22 +69,16 @@ header {
 nav a:hover {
     background-color: #E9D8A6;
 }
-.book, .join {
-    background-color: #94D2BD;
-    text-decoration: none;
-}
 .book:hover, .join:hover {
     background-color: #E9D8A6;
 }
 #background {
     background-color: #94D2BD;
 }
-.msg {
-    background-color: #94D2BD;
+.msg h2{
+    font-family: 'Festive', cursive, sans-serif;
 }
-footer {
-    background-color: #396E94;
-}
+
 
 /* changing some text colors */
 footer h3 {

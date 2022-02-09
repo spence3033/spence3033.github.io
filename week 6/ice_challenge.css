@@ -1,0 +1,47 @@
+main {
+    display:grid;
+    grid-template-columns:2fr 3fr;
+    color:#636770;
+}
+img {
+    width:100%;
+}
+a {
+    float:right;
+    text-decoration: none;
+    color: #636770;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inputBox {
+    display: grid;
+    grid-template-rows: auto;
+}
+.input {
+    padding: 10px;
+    margin-bottom:15px;
+    color:darkgray;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius:5px;
+    border-width:1px
+}
+#subscribe {
+    text-align: center;
+    margin-top: 15px;
+}
+button {
+    padding:15px 30px;
+    background-color: #E39968;
+    border:none;
+    color:white;
+    font-weight: bold;
+    border-radius: 8px;
+}
