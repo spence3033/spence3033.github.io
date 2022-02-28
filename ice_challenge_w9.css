@@ -1,0 +1,43 @@
+body {
+    text-align:center;
+    background-color:black;
+    margin-right:150px;
+    margin-left:150px;
+}
+
+#round {
+    border-radius:25px;
+    background-color: white;
+    overflow:hidden;
+}
+img {
+    width:100%;
+    height:auto;
+}
+#time {
+    color:blue;
+}
+#text {
+    color:gray;
+}
+.grid3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+h2 {
+    height:33px;
+    margin-bottom:0px;
+}
+h2 sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
+}
+.grid3 div {
+    background-color: blue;
+    color:white;
+}
+#mid {
+    border:solid gray;
+    border-width:0px 1px;
+}
