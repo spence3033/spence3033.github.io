@@ -1,23 +1,107 @@
 /* The color pallete comes from here. */
 /* https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
 
-header {
-    background-color:#2A9D8F;
-    display:grid;
-    grid-template-columns: 150px auto;
+
+body {
+    background-color:#CFC1A7;
+    margin:0%;
+    font-family: Consolas, Helvetica, Arial, sans-serif;
 }
+
 #content {
     display:grid;
     grid-template-columns: 1fr;
+}
+header {
+    background-color:#2A2A2A;
+    display:grid;
+    grid-template-columns: 140px auto;
+}
+.logo {
+    width:110px;
+}
+#logo_link {
+    padding:15px 15px;
+    /* justify-self: center; */
+    align-self: center;
 }
 nav {
     display:flex;
     justify-content:space-around;
 }
 nav a {
+    padding:55px;
+    /* margin-top:40px; */
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: center;
+    text-decoration:none;
+    color:white;
+    font-size:1.3em;
 }
+nav a:hover {
+    /* background-color: #3EADE2; */
+    background-color: #B46D16;
+}
+#subheader {
+    background-color:#3B3B3B;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#subheader #left {
+    padding:15px 15px;
+    color:white;
+}
+#subheader #left p {
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+#subheader #right {
+    grid-column:3/4;
+    padding:25px 15px;
+}
+#subheader #right button {
+    background-color:#3EADE2;
+}
+
+.col3 {
+    margin:40px;
+    margin-right:100px;
+}
+
+.image_1 {
+    width:500px;
+}
+.image_2 {
+    width:300px;
+}
+.image_3 {
+    width:300px;
+}
+#home-grid {
+    display:grid;
+    grid-template-columns:500px 1fr;
+    justify-items:center;
+    justify-content: center;
+}
+#home-info {
+    background-color:lightgray;
+    padding:18px 25px;
+}
+#home-info h3 {
+    margin-top:0%;
+    font-size:1.8em;
+}
+#home-info p {
+    max-width:70%;
+}
+#home-info h4 {
+    font-size:1.6em;
+}
+
+.item {
+    margin-top:50px;
+}
+
 footer {
     padding: 25px 50px;
     margin-top: 200px;
@@ -31,4 +115,21 @@ footer .social img {padding-top: 15px;}
 
 footer h3 {
     align-content:center;
+}
+
+.item {
+    display:grid;
+    grid-template-columns:300px 1fr;
+}
+.item-content {
+    padding:0px 25px;
+}
+.item-content h3 {
+    margin-top:0%;
+    font-size:1.3em;
+}
+.item-content p {
+    margin-top:30px;
+    max-width:80%;
+    line-height:1.8;
 }
