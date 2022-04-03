@@ -15,10 +15,12 @@ body {
 header {
     background-color:#2A2A2A;
     display:grid;
-    grid-template-columns: 140px auto;
+    grid-template-columns: 154px auto;
 }
 .logo {
     width:110px;
+    border-right:14px solid #EDEDED;
+    border-left:14px solid #EDEDED;
 }
 #logo_link {
     padding:15px 15px;
@@ -93,6 +95,7 @@ nav a:hover {
 }
 #home-info p {
     max-width:70%;
+    line-height:1.5;
 }
 #home-info h4 {
     font-size:1.6em;
@@ -105,7 +108,7 @@ nav a:hover {
 footer {
     padding: 25px 50px;
     margin-top: 200px;
-    background-color: #396E94;
+    background-color: #3B3B3B;
     /* display: flex; */
     justify-content: space-around;
     align-items:center;
@@ -115,6 +118,11 @@ footer .social img {padding-top: 15px;}
 
 footer h3 {
     align-content:center;
+}
+footer h3 a {
+    color: white;
+    
+    
 }
 
 .item {
@@ -131,5 +139,5 @@ footer h3 {
 .item-content p {
     margin-top:30px;
     max-width:80%;
-    line-height:1.8;
+    line-height:1.5;
 }
