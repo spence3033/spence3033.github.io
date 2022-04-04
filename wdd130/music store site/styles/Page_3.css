@@ -76,8 +76,6 @@ nav a:hover {
 }
 .display-instrument {
     display:block;
-    padding-left:auto;
-    padding-right:auto;
     background-color: gray;
     text-align: center;
 }
