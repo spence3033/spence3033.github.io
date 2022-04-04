@@ -1,3 +1,7 @@
+/* The color pallete comes from here. */
+/* https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+
+
 body {
     background-color:#CFC1A7;
     margin:0%;
@@ -61,43 +65,9 @@ nav a:hover {
     background-color:#3EADE2;
 }
 
-.col3 {
-    margin:40px;
-    margin-right:100px;
-}
-.col3 p {
-    line-height:1.5
-}
-.section-instruments {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left:0%;
-    column-gap: 50px;
-}
-.display-instrument {
-    display:block;
-    padding-left:auto;
-    padding-right:auto;
-    background-color: gray;
-    text-align: center;
-}
-.instrument {
-    width:300px;
-    margin:30px 30px 10px;
-}
-.display-instrument p {
-    margin:10px;
-}
-.display-instrument p button {
-    background-color:#3EADE2;
-    padding: 5px 10px;
-    border-radius:10px;
-    /* border: solid 2px black; */
-}
-
 footer {
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: #3B3B3B;
     /* display: flex; */
     justify-content: space-around;
@@ -110,5 +80,5 @@ footer h3 {
     align-content:center;
 }
 footer h3 a {
-    color: white;
+    color: white;   
 }
