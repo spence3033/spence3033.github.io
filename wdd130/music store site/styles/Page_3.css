@@ -85,6 +85,10 @@ nav a:hover {
     width:300px;
     margin:30px 30px 10px;
 }
+.instrument:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    
+}
 .display-instrument p {
     margin:10px;
 }
